@@ -1,0 +1,217 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-image: linear-gradient(135deg, #710000, #271811);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* MAIN CONTAINER FOR MANAGE THE PAGES */
+
+#main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    width: 350px;
+    height: 500px;
+    background-color: #222;
+    border-radius: 20px;
+}
+
+/* SELECTION PAGE DESIGN AREA */
+
+#selection-page{
+    text-align: center;
+    background-color: #222;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 100px;
+    flex-direction: column;
+    background-image: linear-gradient(135deg, #271811, #710000);
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+#selection-text{
+    margin-top: 50px;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#selection-submit{
+    margin-bottom: 50px;
+}
+
+#select-label{
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#select-input{
+    width: 200px;
+    height: 35px;
+    border: 1px solid white;
+    background-color: #271811;
+    color: white;
+    text-align: center;
+}
+
+#selection-button{
+    width: 100px;
+    height: 30px;
+    border: 2px solid white;
+    background-color: #271811;
+    border-radius: 50px;
+    color: white;
+}
+
+#selection-button:hover{
+    background-color: white;
+    color: #271811;
+    border: 2px solid black;
+}
+
+/* SELECTION PAGE DESIGN AREA ENDS */
+
+/* INPUT PAGE DESIGN AREA */
+
+#input-page{
+    text-align: center;
+    background-color: #222;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-image: linear-gradient(135deg, #271811, #710000);
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+#input-page-h2{
+    margin-bottom: 25px;
+    margin-top: 50px;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#button-div{
+    margin-bottom: 25px;
+}
+
+#form-page-input{
+    margin-top: 5px;
+    width: 250px;
+    height: 30px;
+    gap: 20px;
+    background-color: #271811;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#form-page-input input{
+    width: 250px;
+    height: 30px;
+    background-color: #271811;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;  
+}
+
+#button-div{
+    position: absolute;
+    margin-top: 400px;
+}
+
+#calculate-button{
+    width: 100px;
+    height: 30px;
+    border: 2px solid white;
+    background-color: #271811;
+    border-radius: 50px;
+    color: white;
+}
+
+#calculate-button:hover{
+    background-color: white;
+    color: #271811;
+    border: 2px solid black;
+}
+
+#result{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 850px;
+}
+
+#logo{
+    position: absolute;
+    border: 3px solid white;
+    border-radius: 500px;
+    padding: 15px 50px;
+    margin-right: 850px;
+    font-size: 50px;
+}
+
+/* ALL INPUTS ARE INVISIBLE (MAKING THEM VISIBLE WHEN USER WANTS TO) */
+
+#hide-input{display: none;}
+#polymer-input{display: none;}
+#crystal-input{display: none;}
+#blackpearl-input{display: none;}
+#fiber-input{display: none;}
+#metal-input{display: none;}
+#wood-input{display: none;}
+#element-input{display: none;}
+#chitin-input{display: none;}
+#cement-input{display: none;}
+#silica-input{display: none;}

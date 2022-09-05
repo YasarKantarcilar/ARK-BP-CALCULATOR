@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="icons8-website-64.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <title>B&G BP Calculator</title>
+
+</head>
+<body>
+
+    <!-- MAIN CONTAINER HAS 2 PAGES (SELECTION AND INPUT) -->
+
+    <div id="main-container">
+        <div id="logo">B&G
+        </div>
+
+        <!-- SELECTION PAGE STARTS -->
+
+        <div id="selection-page">
+
+            <div id="selection-text">
+                <p>WHICH RESOURCES YOUR BP REQUIRES</p>    
+            </div>
+            <div id="selection-input-div">
+                <form> <!-- SELECT INPUT FOR LIST INPUT OF SELECTION PAGE -->
+                    <label id="select-label">SELECT</label><br><br>
+                    <select name="" id="select-input">
+                        <option value="1">TEK SADDLE</option>
+                        <option value="2">HIDE,FIBER,CHITIN</option>
+                        <option value="3">HIDE,FIBER,WOOD</option>
+                        <option value="4">HIDE,FIBER,METAL</option>
+                        <option value="5">HIDE,FIBER,CEMENT PASTE</option>
+                        <option value="6">HIDE,FIBER,METAL,SILICA,CEMENT</option>
+                    </select>
+                </form>    
+            </div>
+            <div id="selection-submit">
+                <button id="selection-button">NEXT</button>
+            </div>
+    
+        </div>
+
+        <!-- SELECTION PAGE ENDS -->
+        <!-- INPUT PAGE STARTS -->
+
+        <div id="input-page">
+            <div id="form-container">
+                <h2 id="input-page-h2">ENTER THE RESOURCES <br> FOR CRAFT 1 SADDLE</h2>
+                <!-- LIST OF INPUTS OF INPUT PAGE -->
+                <form action="" id="form-page-input">
+                    <input type="number" placeholder="HIDE" id="hide-input">
+                    <input type="number" placeholder="FIBER" id="fiber-input">
+                    <input type="number" placeholder="METAL" id="metal-input">
+                    <input type="number" placeholder="WOOD" id="wood-input">
+                    <input type="number" placeholder="ELEMENT" id="element-input">
+                    <input type="number" placeholder="CHITIN/KERATIN" id="chitin-input">
+                    <input type="number" placeholder="POLYMER" id="polymer-input">
+                    <input type="number" placeholder="CRYSTAL" id="crystal-input">
+                    <input type="number" placeholder="BLACK PEARL" id="blackpearl-input">
+                    <input type="number" placeholder="SILICA" id="silica-input">
+                    <input type="number" placeholder="CEMENT PASTE" id="cement-input">
+                    <label for="cound-input" id="count-label">HOW MANY SADDLES YOU WANT TO CRAFT</label>
+                    <input type="number" placeholder="HOW MANY SADDLE TO CRAFT" id="count-input">
+                </form>
+            </div>     
+            <p id="result"></p> <!-- RESULT TEXT -->
+            <div id="button-div">
+                <button id="calculate-button">CALCULATE</button> <!-- BUTTON FOR CALCULATE -->
+            </div>       
+        </div>   
+        
+        <!-- INPUT PAGE ENDS -->        
+
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
