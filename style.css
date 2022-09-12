@@ -25,7 +25,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    background-image: linear-gradient(135deg, #710000, #271811);
+    background-image: url("mesh-189.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,6 +61,7 @@ table {
     height: 500px;
     background-color: #222;
     border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 /* SELECTION PAGE DESIGN AREA */
@@ -73,9 +76,12 @@ table {
     justify-content: space-evenly;
     gap: 100px;
     flex-direction: column;
-    background-image: linear-gradient(135deg, #271811, #710000);
-    border: 2px solid white;
+    background-image: url("mesh-698.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 2px solid black;
     border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 #selection-text{
@@ -96,24 +102,24 @@ table {
 #select-input{
     width: 200px;
     height: 35px;
-    border: 1px solid white;
-    background-color: #271811;
-    color: white;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
     text-align: center;
 }
 
 #selection-button{
     width: 100px;
     height: 30px;
-    border: 2px solid white;
-    background-color: #271811;
+    border: 2px solid black;
+    background-color: white;
     border-radius: 50px;
-    color: white;
+    color: black;
 }
 
 #selection-button:hover{
-    background-color: white;
-    color: #271811;
+    background-color: black;
+    color: white;
     border: 2px solid black;
 }
 
@@ -130,9 +136,12 @@ table {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    background-image: linear-gradient(135deg, #271811, #710000);
-    border: 2px solid white;
+    background-image: url("mesh-698.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 2px solid black;
     border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 #input-page-h2{
@@ -149,9 +158,8 @@ table {
 #form-page-input{
     margin-top: 5px;
     width: 250px;
-    height: 30px;
-    gap: 20px;
-    background-color: #271811;
+/*     height: 100px; */
+    gap: 10px;
     color: white;
     text-align: center;
     display: flex;
@@ -161,10 +169,10 @@ table {
 #form-page-input input{
     width: 250px;
     height: 30px;
-    background-color: #271811;
-    border: 1px solid white;
+    background-color: white;
+    border: 2px solid black;
     border-radius: 50px;
-    color: white;  
+    color: black;  
 }
 
 #button-div{
@@ -175,22 +183,25 @@ table {
 #calculate-button{
     width: 100px;
     height: 30px;
-    border: 2px solid white;
-    background-color: #271811;
+    border: 2px solid black;
+    background-color: white;
     border-radius: 50px;
-    color: white;
+    color: black;
 }
 
 #calculate-button:hover{
-    background-color: white;
-    color: #271811;
-    border: 2px solid black;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
 }
 
 #result{
     position: absolute;
     margin-top: 200px;
     margin-left: 850px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 #logo{
